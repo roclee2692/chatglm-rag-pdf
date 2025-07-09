@@ -19,45 +19,9 @@ It enables question answering and summarization over your own PDF documents, lev
 ✅ Fully local operation, keeping your data private
 
 ---
-
 ## Project Structure
-chatglm-rag-pdf/
-├── README.md # 项目简介、安装步骤、使用示例
-├── LICENSE # 开源协议
-├── .gitignore # 忽略文件
-├── requirements.txt # Python 依赖
-│
-├── notebooks/ # Jupyter 原型实验
-│ └── 01_prototype.ipynb
-│
-├── data/ # 示例数据
-│ ├── docs/ # PDF/TXT 文件
-│ └── index/ # FAISS 索引文件
-│
-├── src/ # 项目核心代码
-│ └── chatglm_rag/
-│ ├── init.py
-│ ├── config.py
-│ ├── parser/
-│ │ └── pdf_parser.py
-│ ├── index/
-│ │ └── faiss_index.py
-│ └── rag/
-│ └── chatglm_rag.py
-│
-├── scripts/ # 命令行脚本
-│ ├── build_index.py
-│ └── query.py
-│
-├── tests/ # 单元测试
-│ └── test_index.py
-│
-├── examples/ # 快速上手示例
-│ └── sample_run.sh
-│
-├── .github/
-│ └── workflows/ci.yml
-└── setup.py / pyproject.toml
+
+<pre> ```text chatglm-rag-pdf/ ├── README.md ├── LICENSE ├── .gitignore ├── requirements.txt │ ├── notebooks/ │ └── 01_prototype.ipynb │ ├── data/ │ ├── docs/ │ └── index/ │ ├── src/ │ └── chatglm_rag/ │ ├── __init__.py │ ├── config.py │ ├── parser/ │ │ └── pdf_parser.py │ ├── index/ │ │ └── faiss_index.py │ └── rag/ │ └── chatglm_rag.py │ ├── scripts/ │ ├── build_index.py │ └── query.py │ ├── tests/ │ └── test_index.py │ ├── examples/ │ └── sample_run.sh │ ├── .github/ │ └── workflows/ci.yml └── setup.py / pyproject.toml ``` </pre>
 
 ---
 
